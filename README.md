@@ -94,22 +94,13 @@ await callTool("search_patient_v2", {
 ### Running in Development Mode
 
 ```bash
-# Original server
 npm run dev
 
-# V2 server  
-npm run dev:v2
-```
-
-### Starting the Servers
+### Starting the Server
 
 ```bash
-# Original server
+# Latest server
 npm start
-
-# V2 server
-npm run start:v2
-```
 
 ### Testing
 
