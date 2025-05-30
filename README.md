@@ -141,6 +141,4 @@ Additionally if you need to clear the `/dist` folder you can run `npm run clean`
 
 - `@modelcontextprotocol/sdk`: MCP TypeScript SDK
 - `puppeteer`: Web automation (V2 server)
-- `cheerio`: HTML parsing (original server)
-- `tough-cookie`: Cookie management (original server)
 - `dotenv`: Environment variable management
