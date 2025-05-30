@@ -1,4 +1,4 @@
-# Patient Search MCP Server
+# Patient Search & Create Tasks MCP Server
 
 This project provides a Model Context Protocol (MCP) server for searching patients in the Flight Health Atlas system and creating a new task.
 
