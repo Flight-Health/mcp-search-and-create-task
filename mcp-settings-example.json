@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "patient-search": {
+      "command": "node",
+      "args": ["/Users/aakarshagrawal/Desktop/Flight-Heatlth/patient-search-mcp/dist/server.js"],
+      "env": {
+        "ATLAS_BASE_URL": "https://atlas.staging.goflighthealth.com"
+      }
+    },
+    "patient-search-v2": {
+      "command": "node",
+      "args": ["/Users/aakarshagrawal/Desktop/Flight-Heatlth/patient-search-mcp/dist/server-v2.js"]
+    }
+  }
+} 

@@ -1,0 +1,35 @@
+{
+  "name": "patient-search-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for patient search functionality (TypeScript)",
+  "type": "module",
+  "main": "dist/server.js",
+  "bin": {
+    "patient-search-server": "./dist/server.js",
+    "patient-search-server-v2": "./dist/server-v2.js"
+  },
+  "scripts": {
+    "build:v2": "tsc && chmod +x dist/server-v2.js",
+    "start": "npm run build:v2 && node dist/server-v2.js",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@types/tough-cookie": "^4.0.5",
+    "axios": "^1.9.0",
+    "axios-cookiejar-support": "^6.0.2",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.0.0",
+    "puppeteer": "^21.0.0",
+    "tough-cookie": "^5.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/cheerio": "^1.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
