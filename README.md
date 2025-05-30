@@ -46,7 +46,7 @@ Add the following to your Cursor `mcp.json` file (found through Cursor Settings)
   "mcpServers": {
     "patient-search-v2": {
       "command": "node",
-      "args": ["/path/to/patient-search-mcp/dist/server-v2.js"]
+      "args": ["/path/to/mcp-search-and-create-task/dist/server-v2.js"]
     }
   }
 }
